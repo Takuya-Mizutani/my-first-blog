@@ -2,7 +2,8 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-sys.path.append('/private/var/mobile/Containers/Shared/AppGroup/BF6D28F7-8CDD-43FE-AAB3-F1369C817B0C/File Provider Storage/Repositories/my-first-blog/mysite/')
+sys.path.append(sys.path[0])
+# sys.path.append('/private/var/mobile/Containers/Shared/AppGroup/BF6D28F7-8CDD-43FE-AAB3-F1369C817B0C/File Provider Storage/Repositories/my-first-blog/mysite/')
 
 
 def main():
