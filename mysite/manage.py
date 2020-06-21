@@ -2,10 +2,9 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-# sys.path.append(sys.path[0])
 sys.path.append('/private/var/mobile/Containers/Shared/AppGroup/BF6D28F7-8CDD-43FE-AAB3-F1369C817B0C/File Provider Storage/Repositories/my-first-blog/mysite/')
 sys.path.append('/private/var/mobile/Containers/Shared/AppGroup/63EBE0A2-52DE-41F0-8090-7B3F107FB4B6/File Provider Storage/Repositories/my-first-blog/mysite')
-# What are you doing ??
+
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
